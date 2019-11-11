@@ -1,10 +1,8 @@
 def prime?(number)
-  return false if number <= 1
-elsif (2...(number)).each do |n|
+  if number <= 1
+ (2...(number)).each do |n|
       return false if number % n == 0
   end
-end
-end
     true
 end
 
