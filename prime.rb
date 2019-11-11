@@ -1,5 +1,5 @@
 def prime?(number)
-  (0...(number -1)).each do |n|
+  (-1...(number -1)).each do |n|
     return false if number % n == 0
   end
     true
