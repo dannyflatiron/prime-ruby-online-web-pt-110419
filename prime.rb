@@ -4,6 +4,7 @@ elsif (2...(number)).each do |n|
       return false if number % n == 0
   end
 end
+end
     true
 end
 
